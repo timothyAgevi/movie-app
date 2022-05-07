@@ -22,13 +22,16 @@ const  App= () => {
             <input
             placeholder="Search for movies"
             value="Superman"
-            onchange={()=>{}}
+            onchange={()=>{}}//shall call api fro here
             />
 
             <img
             src={SearchIcon}
             alt="search"
             />
+        </div>
+        <div className="container">
+
         </div>
         </div>
      );
