@@ -24,6 +24,11 @@ const  App= () => {
             value="Superman"
             onchange={()=>{}}
             />
+
+            <img
+            src={SearchIcon}
+            alt="search"
+            />
         </div>
         </div>
      );
