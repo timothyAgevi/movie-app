@@ -30,7 +30,7 @@ const  App= () => {
             <input
             placeholder="Search for movies"
             value="Superman"
-            onchange={()=>{}}//shall call api fro here
+            onChange={()=>{}}//shall call api fro here
             />
 
             <img
@@ -41,7 +41,12 @@ const  App= () => {
         <div className="container">
         <div className="movie">
             <div>
-                <p> </p>
+                <p>{movie1.Title} </p>
+            </div>
+            <div>
+                <img 
+                src={movie1.Poster} alt={movie1.Title}
+                />
             </div>
         </div>
         </div>
