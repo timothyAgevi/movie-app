@@ -6,6 +6,7 @@ const App=()=> {
   //inside [nameod State,setterfunction]=useState(initialvalue) 
   const [counter,setCounter]=useState(0);
   return (
+    //callback:function within HOF/other function that lternas normal running of program.
     <div className="App">
      <button onClick ={()=>setCounter((prevCount)=>prevCount -1)}> -</button>
      <h1> {counter}</h1>
