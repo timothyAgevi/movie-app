@@ -20,7 +20,10 @@ const  App= () => {
         <h1>MovieLand</h1>
         <div className="search">
             <input
-            placeholder="Search for movies"/>
+            placeholder="Search for movies"
+            value="Superman"
+            onchange={()=>{}}
+            />
         </div>
         </div>
      );
