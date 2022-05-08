@@ -19,7 +19,7 @@ const  App= () => {
     const searchMovies= async(title)=>{
         const response=await fetch(`${API_URL}&s=${title}`)
         const data= await response.json();
-        
+
         setMovies(data.Search);
     }
     useEffect(()=>{
@@ -42,7 +42,7 @@ const  App= () => {
             />
         </div>
         <div className="container">
-        <MovieCard movie1={movie1}/>
+        <MovieCard movie1={movies[0]}/>
         </div>
         </div>
      );
