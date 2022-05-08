@@ -17,6 +17,7 @@ const movie = {
 const App = () => {
   //new state to dispaly movies
   const [movies, setMovies] = useState([]);
+  const [searchTerm,setSearchTerm]=useState('')
   const searchMovies = async (title) => {
     const response = await fetch(`${API_URL}&s=${title}`);
     const data = await response.json();
@@ -33,7 +34,7 @@ const App = () => {
       <div className="search">
         <input
           placeholder="Search for movies"
-          value="Superman"
+          value={searchTerm}
           onChange={() => {}} //shall call api fro here
         />
 
