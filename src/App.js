@@ -1,4 +1,4 @@
-import {useEffect} from "react";
+import {useEffect,useState} from "react";
 import './App.css';
 import SearchIcon from './search.svg' 
 import MovieCard from './MovieCard'
@@ -14,6 +14,8 @@ imdbID: "tt2705436"
 }
 
 const  App= () => {
+    //new state to dispaly movies
+
     const searchMovies= async(title)=>{
         const response=await fetch(`${API_URL}&s=${title}`)
         const data= await response.json();
