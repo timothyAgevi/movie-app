@@ -5,7 +5,7 @@ import MovieCard from './MovieCard'
 //16074f9e
 const API_URL=' http://www.omdbapi.com/?i=tt3896198&apikey=16074f9e'
 
-const movie1={
+const movie={
     Poster: "https://m.media-amazon.com/images/M/MV5BYjFhN2RjZTctMzA2Ni00NzE2LWJmYjMtNDAyYTllOTkyMmY3XkEyXkFqcGdeQXVyNTA0OTU0OTQ@._V1_SX300.jpg",
 Title: "Italian Spiderman",
 Type: "movie",
