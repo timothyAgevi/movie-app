@@ -35,7 +35,7 @@ const App = () => {
         <input
           placeholder="Search for movies"
           value={searchTerm}
-          onChange={() => {}} //shall call api fro here
+          onChange={(e) => setSearchTerm(e.target.value)} //shall call api fro here
         />
 
         <img src={SearchIcon} alt="search" />
