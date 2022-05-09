@@ -2,9 +2,11 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import SearchIcon from "./search.svg";
 import MovieCard from "./MovieCard";
+// import   API_URL from "../src/.env"
+import { endpoint } from "./.env";
 //16074f9e
-const API_URL = " http://www.omdbapi.com/?i=tt3896198&apikey=16074f9e";
-
+// export const API_URL = " http://www.omdbapi.com/?i=tt3896198&apikey=16074f9e";
+const API_URL=endpoint;
 // const movie = {
 //   Poster:
 //     "https://m.media-amazon.com/images/M/MV5BYjFhN2RjZTctMzA2Ni00NzE2LWJmYjMtNDAyYTllOTkyMmY3XkEyXkFqcGdeQXVyNTA0OTU0OTQ@._V1_SX300.jpg",
